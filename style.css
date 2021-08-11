@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #F2F2F2;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.navbar{
+    background: #F2F2F2;
+    color: #000;
+    padding-top: -20px;
+    min-height: 30px;
+}
+
+.navbar a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li{
+    float: left;
+    display: inline;
+    padding: 0 18px 0 18px;
+}
+
+.navbar .logo{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar nav{
+    float: right;
+    margin-top: -50px;
+}
+
+.navbar nav .button-nav{
+    background: red;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-top: -12px;
+}
+
+.hero{
+   min-height: 500px;
+   background: rgba(0,0,0,0.6) url('../img/classroom2.jpg') no-repeat;
+   background-blend-mode: darken;
+   position: relative;
+}
+
+.hero .hero-search{
+    background-color: #fff;
+    width: 30%;
+    height: 370px;
+    border-radius: 15px; 
+    position: absolute;
+    top: 180px;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
+                 15px 15px 15px rgba(0, 0, 0, 0.2);
+   
+}
+
+.hero .hero-search h3{
+    padding-top: 15px;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero .hero-search p{
+   font-size: 13px;
+   padding: 0 30px;
+   color: rgb(146, 140, 140);
+   font-weight: 500;
+   text-align: center;
+}
+
+.hero .hero-search .form input{
+    width: 65%;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin: 15px 40px;  
+    outline: none; 
+    padding: 0 30px;    
+}
+
+.hero .hero-search .form img{
+    width: 15px;
+    opacity: .4;
+    position: absolute;
+    top: 152px;
+    left: 50px;
+}
+
+.hero .hero-search .hero-list{
+    list-style: none;
+    line-height: 35px;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.hero .hero-search .hero-list li::before{
+    content: '';
+    background: url('../img/check-circle-fill.svg');
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    background-size: contain;
+}
+
+.about-section{
+    padding: 150px 0;
+}
+
+.about-content{
+    display: flex;
+}
+
+.about-content img{
+    width: 20%;
+    height: 350px;
+}
+
+.about-content-right{
+    background: #fff;
+    padding: 0 30px;
+}
+
+.about-content-right h5{
+    color: red;
+    font-weight: bold;
+}
+
+.about-content-right h2{
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+
+.about-content-right p{
+    font-size: 14px;
+    color: rgb(109, 103, 103);
+}
+
+.about-content-right .about-btn{
+    float: right;
+    margin-right: 30px;
+    margin-top: 15px;
+    background: red;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 23px;
+}
+
+
+
+
+
+
+
+
