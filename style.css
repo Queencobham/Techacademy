@@ -268,20 +268,92 @@ body{
     border: none;
 }
 
-.programs-card{
-   margin-top: 50px;
+ .programs-card{ 
+   margin-top: 70px;
 }
 
-.programs-card h4{
+.programs-card h3{
     text-align: center;
     font-size: 18px;
 }
 
-.programs-card .programs-card-2{
-    background-color: #fff;
-    display: flex;
-    margin: 20px 0;
+.programs-card .programs-card-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 40px 0;
 }
+
+.programs-card-two img{
+    display: block;
+    width: 40%;
+    object-fit: cover;
+}
+
+.programs-card-two{
+  width: 45%;
+  height: 250px;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgb(243, 235, 235); 
+}
+
+.programs-card-two-text{
+    padding: 0 10px;
+}
+
+.programs-card-two-text h4{
+   text-transform: capitalize;
+   font-size: 18px;
+}
+
+.programs-card-two-text p{
+    font-size: 16px;
+}
+
+.skill-section{
+    margin: 50px 0;
+}
+
+.skill-content{
+    display: flex;
+}
+
+.skill-content img{
+    width: 230px;
+    object-fit: cover;
+}
+
+.skill-content-right{
+    background: #fff;
+    padding: 70px 60px;
+    width: 90%;
+}
+
+.skill-content-right p{
+    font-size: 17px;
+    color: #000;
+}
+
+.skill-content-right .skill-btn{
+    float: right;
+    border-radius: 5px;
+    padding: 15px 25px;
+    border: none;
+    text-transform: capitalize;
+    background-color: red;
+    color: #fff ;
+}
+
+  
+
+
+
+
+
+
 
 
 
