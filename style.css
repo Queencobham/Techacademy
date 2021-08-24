@@ -287,6 +287,7 @@ body{
 .programs-card-two img{
     display: block;
     width: 40%;
+    height: auto;
     object-fit: cover;
 }
 
