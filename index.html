@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
 </head>
 <body>
     <div class="navbar">
         <div class="container">
             <h3 class="logo">Tech Academy</h3>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
             <div class="nav">
                <ul class="primary-nav">
                 <li><a href="#">Home</a></li>
@@ -55,7 +59,7 @@
                     <h5>About</h5>
                     <h2>Tech Academy's Hackathon!!</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eveniet aspernatur repudiandae eius sed ratione unde eos obcaecati, consectetur reprehenderit ad deserunt nulla, suscipit quidem, ut fugiat facere rerum et porro natus sit eum explicabo sapiente? Rerum perferendis eos nesciunt. <br> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eveniet aspernatur repudiandae eius sed ratione unde eos obcaecati, consectetur reprehenderit ad deserunt nulla, suscipit quidem, ut fugiat facere rerum et porro natus sit eum explicabo sapiente? Rerum perferendis eos nesciunt.</p>
-                    <a href="#" class="about-btn" style="color: #fff; margin-bottom: 10px;">Learn More</a>
+                    <button class="about-btn" style="color: #fff; margin-bottom: 10px;">Learn More</button>
                 </div>
             </div>
         </div>
@@ -200,5 +204,14 @@
             </div>
         </div>
     </div>
+
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('primary-nav')[0]
+    
+        toggleButton.addEventListener('click', () => {
+         navbarLinks.classList.toggle('active')
+        })
+    </script>
 </body>
 </html>
