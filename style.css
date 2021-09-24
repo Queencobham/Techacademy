@@ -573,6 +573,19 @@ button{
     }
 }
 
+@media only screen and (max-width: 942px){
+    .testimonial-team{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .testimonial{
+        margin-top: 100px;
+
+    }
+}
+
 
 
 
